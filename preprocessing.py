@@ -4,7 +4,6 @@ import numpy as np
 # ----------------------------------------------Load Data
 # Data aquired from here "https://www.kaggle.com/andrewmvd/data-scientist-jobs"
 df = pd.read_csv("DataScientist.csv")
-
 # ----------------------------------------------Preprocessing
 
 # Get rid of first  two columns as they are unnecessary
