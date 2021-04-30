@@ -1,0 +1,44 @@
+Brotli @ file:///D:/bld/brotli-split_1610110784919/work
+certifi==2020.12.5
+click==7.1.2
+cycler==0.10.0
+dash @ file:///home/conda/feedstock_root/build_artifacts/dash_1618036125020/work
+dash-bootstrap-components==0.12.0
+dash-core-components @ file:///home/conda/feedstock_root/build_artifacts/dash-core-components_1617984947808/work
+dash-html-components @ file:///home/conda/feedstock_root/build_artifacts/dash-html-components_1617985450943/work
+dash-renderer @ file:///home/conda/feedstock_root/build_artifacts/dash-renderer_1617984936069/work
+dash-table @ file:///home/conda/feedstock_root/build_artifacts/dash-table_1617984959581/work
+Flask==1.1.2
+Flask-Compress @ file:///home/conda/feedstock_root/build_artifacts/flask-compress_1613569273720/work
+future @ file:///D:/bld/future_1610147359597/work
+itsdangerous==1.1.0
+Jinja2 @ file:///home/conda/feedstock_root/build_artifacts/jinja2_1612119311452/work
+joblib @ file:///home/conda/feedstock_root/build_artifacts/joblib_1612898609989/work
+kiwisolver @ file:///D:/bld/kiwisolver_1610099953470/work
+MarkupSafe @ file:///D:/bld/markupsafe_1610127684851/work
+matplotlib @ file:///D:/bld/matplotlib-suite_1617212922200/work
+numpy @ file:///D:/bld/numpy_1616933442622/work
+olefile @ file:///home/conda/feedstock_root/build_artifacts/olefile_1602866521163/work
+pandas @ file:///D:/bld/pandas_1618263878420/work
+patsy==0.5.1
+Pillow @ file:///D:/bld/pillow_1617818313335/work
+plotly @ file:///home/conda/feedstock_root/build_artifacts/plotly_1610471242275/work
+pyparsing==2.4.7
+PyQt5==5.12.3
+PyQt5-sip==4.19.18
+PyQtChart==5.12
+PyQtWebEngine==5.12.1
+python-dateutil==2.8.1
+pytz @ file:///home/conda/feedstock_root/build_artifacts/pytz_1612179539967/work
+PyYAML==5.4.1
+retrying==1.3.3
+scikit-learn @ file:///D:/bld/scikit-learn_1619628870631/work
+scipy @ file:///C:/bld/scipy_1619562066759/work
+seaborn @ file:///home/conda/feedstock_root/build_artifacts/seaborn-split_1611834504644/work
+six @ file:///home/conda/feedstock_root/build_artifacts/six_1590081179328/work
+statsmodels @ file:///D:/bld/statsmodels_1612273747431/work
+threadpoolctl @ file:///tmp/tmp79xdzxkt/threadpoolctl-2.1.0-py3-none-any.whl
+tornado @ file:///D:/bld/tornado_1610094910414/work
+Werkzeug==1.0.1
+wincertstore==0.2
+wordcloud @ file:///D:/bld/wordcloud_1605555768540/work
