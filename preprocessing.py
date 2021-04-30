@@ -1,11 +1,5 @@
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-from os import path
-from PIL import Image
-from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
-from sklearn.feature_extraction.text import TfidfVectorizer
 
 # ----------------------------------------------Load Data
 # Data aquired from here "https://www.kaggle.com/andrewmvd/data-scientist-jobs"

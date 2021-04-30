@@ -6,12 +6,13 @@ from os import path
 from PIL import Image
 from wordcloud import WordCloud, STOPWORDS
 from sklearn.feature_extraction.text import TfidfVectorizer
+import matplotlib.pyplot as plt
 import preprocessing
 
 df = preprocessing.df
 
 
-def createWordCloud(company_number):
+def createWordCloud(company_number, image_number):
     font_path = './Sigmar_One/SigmarOne-Regular.ttf'
     mask_path = './imageonline-co-textimage2.png'
     mask = np.array(Image.open(mask_path))
@@ -19,6 +20,10 @@ def createWordCloud(company_number):
     company = df["Company Name"][company_number]
     wordcloud = WordCloud(width=1000, height=500, background_color='White', contour_width=3, contour_color='black',
                           stopwords=STOPWORDS, font_path=font_path, mask=mask).generate(text)
+    plt.imshow(wordcloud)
+    plt.axis('off')
+    plt.title(company)
+    plt.savefig(f'./assets/wordcloud{image_number}.png')
     return company, wordcloud
 
 
