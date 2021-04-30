@@ -15,8 +15,8 @@ layout = html.Div([
     dbc.Row(
         [
             dbc.Col(
-                html.Label("Please choose a range of number of years a company has been in business for"),
-                width={"size": 6},
+                html.Label("Please choose a sector from the drop down"),
+                width={"size": 6, "offset": 1},
 
             )
         ]),
@@ -57,6 +57,6 @@ def update_graph(sec_dropdown):
     figa = px.box(dff1,
                   x="Sector",
                   y="Years in Business",
-                  title="Maximum Salary (k) by Years in Business")
+                  title="Years in Business by Sector")
 
     return figa

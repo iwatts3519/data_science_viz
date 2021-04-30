@@ -15,9 +15,9 @@ layout = html.Div(
                     dbc.Card([
                         dbc.CardImg(src='data:image/png;base64,{}'.format(encoded_image1.decode()), top=True),
                         dbc.CardBody([
-                            html.H3("Exhibitor Messages Wordcloud"),
+                            html.H3("Hopper"),
                             html.P
-                            ("A wordcloud showing the most common words from the Exhibitor Messages")
+                            ("A wordcloud showing the most common words from the job description")
                         ])
                     ]), width={"size": 4, "offset": 1}
                 ),
@@ -25,9 +25,9 @@ layout = html.Div(
                     dbc.Card([
                         dbc.CardImg(src='data:image/png;base64,{}'.format(encoded_image2.decode()), top=True),
                         dbc.CardBody([
-                            html.H3("Meeting Messages Wordcloud"),
+                            html.H3("United Entertainment Group"),
                             html.P
-                            ("A wordcloud showing the most common words from the Meeting Messages")
+                            ("A wordcloud showing the most common words from the job description")
                         ])
                     ]), width={"size": 4, "offset": 2}
                 )
